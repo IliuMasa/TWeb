@@ -1,0 +1,83 @@
+[
+    {
+        "name": "La Terasă",
+        "category": "european",
+        "type": "Bucătărie europeană",
+        "rating": "4.8",
+        "price": "$$",
+        "description": "Restaurant elegant cu atmosferă relaxată, potrivit pentru cine romantice și întâlniri cu prietenii.",
+        "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+        "name": "Urban Bistro",
+        "category": "modern",
+        "type": "Bistro modern",
+        "rating": "4.7",
+        "price": "$$",
+        "description": "Local modern, cu meniu creativ, design minimalist și servicii rapide în centrul orașului.",
+        "image": "https://images.unsplash.com/photo-1559329007-40df8a9345d8?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+        "name": "Casa Gustului",
+        "category": "traditional",
+        "type": "Tradițional",
+        "rating": "4.9",
+        "price": "$$",
+        "description": "Restaurant inspirat de bucătăria locală, perfect pentru cei care iubesc preparatele tradiționale.",
+        "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+        "name": "Black Table",
+        "category": "premium",
+        "type": "Fine dining",
+        "rating": "4.9",
+        "price": "$$$",
+        "description": "Spațiu premium cu design negru elegant, meniu rafinat și atmosferă perfectă pentru evenimente speciale.",
+        "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+        "name": "Grey Lounge",
+        "category": "modern",
+        "type": "Lounge urban",
+        "rating": "4.6",
+        "price": "$$",
+        "description": "Local cu interior modern în nuanțe de gri, potrivit pentru seri relaxante și discuții lungi.",
+        "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+        "name": "White Garden",
+        "category": "european",
+        "type": "Restaurant luminos",
+        "rating": "4.7",
+        "price": "$$",
+        "description": "Restaurant cu atmosferă luminoasă, decor curat și preparate potrivite pentru prânzuri elegante.",
+        "image": "https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+        "name": "Old City Grill",
+        "category": "traditional",
+        "type": "Grill & tradițional",
+        "rating": "4.5",
+        "price": "$$",
+        "description": "Local cald și primitor, cu preparate la grătar și influențe culinare tradiționale.",
+        "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+        "name": "Moldavian Taste",
+        "category": "traditional",
+        "type": "Specific local",
+        "rating": "4.8",
+        "price": "$$",
+        "description": "Loc potrivit pentru turiști și localnici care vor să descopere gusturi inspirate din Moldova.",
+        "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+        "name": "Noir Café & Dining",
+        "category": "premium",
+        "type": "Café & dining",
+        "rating": "4.6",
+        "price": "$$$",
+        "description": "Combinație între cafenea elegantă și restaurant, cu accent pe prezentare și atmosferă sofisticată.",
+        "image": "https://images.unsplash.com/photo-1508424757105-b6d5ad9329d0?auto=format&fit=crop&w=900&q=80"
+    }
+]
