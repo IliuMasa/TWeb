@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante în Chișinău</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header" id="acasa">
+        <nav class="navbar">
+            <div class="logo">Chișinău<span>Food</span></div>
+
+            <button class="menu-btn" id="menuBtn" aria-label="Deschide meniul">☰</button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#acasa">Acasă</a></li>
+                <li><a href="#restaurante">Restaurante</a></li>
+                <li><a href="#despre">Despre</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <section class="hero">
+            <div class="hero-content">
+                <p class="subtitle">Ghid culinar urban</p>
+                <h1>Descoperă restaurantele elegante din Chișinău</h1>
+                <p>
+                    Un site modern dedicat localurilor unde atmosfera, gustul și designul
+                    se întâlnesc într-o experiență memorabilă.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#restaurante" class="btn">Vezi restaurantele</a>
+                    <a href="#contact" class="btn btn-outline">Contact</a>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section class="stats">
+            <div class="stat-box">
+                <strong>9+</strong>
+                <span>Restaurante</span>
+            </div>
+            <div class="stat-box">
+                <strong>4</strong>
+                <span>Categorii</span>
+            </div>
+            <div class="stat-box">
+                <strong>100%</strong>
+                <span>HTML, CSS, JS</span>
+            </div>
+        </section>
+
+        <section class="intro">
+            <p class="subtitle">Despre proiect</p>
+            <h2>Un ghid modern pentru restaurantele din oraș</h2>
+            <p>
+                Site-ul este realizat doar cu HTML, CSS și JavaScript. Nu are nevoie de PHP,
+                XAMPP sau server local. Deschizi simplu fișierul index.html în browser.
+            </p>
+        </section>
+
+        <section class="restaurants" id="restaurante">
+            <div class="section-title">
+                <p>Recomandări</p>
+                <h2>Restaurante în Chișinău</h2>
+            </div>
+
+            <div class="filters">
+                <input type="text" id="searchInput" placeholder="Caută restaurant...">
+
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">Toate</button>
+                    <button class="filter-btn" data-filter="traditional">Tradițional</button>
+                    <button class="filter-btn" data-filter="european">European</button>
+                    <button class="filter-btn" data-filter="modern">Modern</button>
+                    <button class="filter-btn" data-filter="premium">Premium</button>
+                </div>
+            </div>
+
+            <div class="cards" id="restaurantCards">
+                <article class="card" data-category="european" data-name="la terasa">
+                    <div class="card-img img-1"><span class="badge">$$</span></div>
+                    <div class="card-body">
+                        <h3>La Terasă</h3>
+                        <p>Restaurant elegant cu atmosferă relaxată, potrivit pentru cine romantice și întâlniri cu prietenii.</p>
+                        <div class="card-info"><span>Bucătărie europeană</span><strong>4.8 ★</strong></div>
+                    </div>
+                </article>
+
+                <article class="card" data-category="modern" data-name="urban bistro">
+                    <div class="card-img img-2"><span class="badge">$$</span></div>
+                    <div class="card-body">
+                        <h3>Urban Bistro</h3>
+                        <p>Local modern, cu meniu creativ, design minimalist și servicii rapide în centrul orașului.</p>
+                        <div class="card-info"><span>Bistro modern</span><strong>4.7 ★</strong></div>
+                    </div>
+                </article>
+
+                <article class="card" data-category="traditional" data-name="casa gustului">
+                    <div class="card-img img-3"><span class="badge">$$</span></div>
+                    <div class="card-body">
+                        <h3>Casa Gustului</h3>
+                        <p>Restaurant inspirat de bucătăria locală, perfect pentru cei care iubesc preparatele tradiționale.</p>
+                        <div class="card-info"><span>Tradițional</span><strong>4.9 ★</strong></div>
+                    </div>
+                </article>
+
+                <article class="card" data-category="premium" data-name="black table">
+                    <div class="card-img img-4"><span class="badge">$$$</span></div>
+                    <div class="card-body">
+                        <h3>Black Table</h3>
+                        <p>Spațiu premium cu design negru elegant, meniu rafinat și atmosferă perfectă pentru evenimente speciale.</p>
+                        <div class="card-info"><span>Fine dining</span><strong>4.9 ★</strong></div>
+                    </div>
+                </article>
+
+                <article class="card" data-category="modern" data-name="grey lounge">
+                    <div class="card-img img-5"><span class="badge">$$</span></div>
+                    <div class="card-body">
+                        <h3>Grey Lounge</h3>
+                        <p>Local cu interior modern în nuanțe de gri, potrivit pentru seri relaxante și discuții lungi.</p>
+                        <div class="card-info"><span>Lounge urban</span><strong>4.6 ★</strong></div>
+                    </div>
+                </article>
+
+                <article class="card" data-category="european" data-name="white garden">
+                    <div class="card-img img-6"><span class="badge">$$</span></div>
+                    <div class="card-body">
+                        <h3>White Garden</h3>
+                        <p>Restaurant cu atmosferă luminoasă, decor curat și preparate potrivite pentru prânzuri elegante.</p>
+                        <div class="card-info"><span>Restaurant luminos</span><strong>4.7 ★</strong></div>
+                    </div>
+                </article>
+
+                <article class="card" data-category="traditional" data-name="old city grill">
+                    <div class="card-img img-7"><span class="badge">$$</span></div>
+                    <div class="card-body">
+                        <h3>Old City Grill</h3>
+                        <p>Local cald și primitor, cu preparate la grătar și influențe culinare tradiționale.</p>
+                        <div class="card-info"><span>Grill & tradițional</span><strong>4.5 ★</strong></div>
+                    </div>
+                </article>
+
+                <article class="card" data-category="traditional" data-name="moldavian taste">
+                    <div class="card-img img-8"><span class="badge">$$</span></div>
+                    <div class="card-body">
+                        <h3>Moldavian Taste</h3>
+                        <p>Loc potrivit pentru turiști și localnici care vor să descopere gusturi inspirate din Moldova.</p>
+                        <div class="card-info"><span>Specific local</span><strong>4.8 ★</strong></div>
+                    </div>
+                </article>
+
+                <article class="card" data-category="premium" data-name="noir cafe dining">
+                    <div class="card-img img-9"><span class="badge">$$$</span></div>
+                    <div class="card-body">
+                        <h3>Noir Café & Dining</h3>
+                        <p>Combinație între cafenea elegantă și restaurant, cu accent pe prezentare și atmosferă sofisticată.</p>
+                        <div class="card-info"><span>Café & dining</span><strong>4.6 ★</strong></div>
+                    </div>
+                </article>
+            </div>
+
+            <p class="no-results" id="noResults">Nu am găsit restaurante după criteriul ales.</p>
+        </section>
+
+        <section class="features" id="despre">
+            <div class="feature-text">
+                <p class="subtitle">Atmosferă & gust</p>
+                <h2>Un oraș cu experiențe culinare pentru fiecare stil</h2>
+                <p>
+                    De la restaurante premium până la localuri mici și primitoare,
+                    Chișinăul oferă opțiuni pentru orice ocazie: prânz de afaceri,
+                    cină în familie, aniversări sau seri relaxante.
+                </p>
+            </div>
+
+            <div class="feature-boxes">
+                <div class="feature-box">
+                    <h3>Design modern</h3>
+                    <p>Interfață curată, culori echilibrate și aspect premium.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>Filtrare rapidă</h3>
+                    <p>Poți filtra restaurantele după categorie cu JavaScript.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>Fără server</h3>
+                    <p>Site-ul funcționează direct în browser, fără PHP și fără XAMPP.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contact">
+            <div class="contact-text">
+                <p class="subtitle">Contact</p>
+                <h2>Vrei o recomandare?</h2>
+                <p>
+                    Completează formularul. În această variantă fără PHP, formularul afișează
+                    un mesaj de confirmare cu JavaScript.
+                </p>
+                <div class="success-message" id="successMessage">Mesajul a fost pregătit cu succes!</div>
+            </div>
+
+            <form class="contact-form" id="contactForm">
+                <input type="text" id="name" placeholder="Numele tău" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <select id="restaurant" required>
+                    <option value="">Alege restaurantul preferat</option>
+                    <option>La Terasă</option>
+                    <option>Urban Bistro</option>
+                    <option>Casa Gustului</option>
+                    <option>Black Table</option>
+                    <option>Grey Lounge</option>
+                    <option>White Garden</option>
+                    <option>Old City Grill</option>
+                    <option>Moldavian Taste</option>
+                    <option>Noir Café & Dining</option>
+                </select>
+                <textarea id="message" rows="5" placeholder="Mesajul tău" required></textarea>
+                <button type="submit" class="btn btn-dark">Trimite mesajul</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div>
+            <h3>Chișinău<span>Food</span></h3>
+            <p>Ghid modern pentru restaurantele din orașul Chișinău.</p>
+        </div>
+
+        <div class="footer-info">
+            <p>Email: contact@chisinaufood.md</p>
+            <p>Telefon: +373 600 00 000</p>
+            <p>Chișinău, Republica Moldova</p>
+        </div>
+    </footer>
+
+    <button class="top-btn" id="topBtn" title="Înapoi sus">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
