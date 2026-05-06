@@ -1,0 +1,24 @@
+Nume: Ilie
+Email: asdasdad@gmai.cp
+Restaurant: Urban Bistro
+Mesaj: foarte gustos
+Data: 04.05.2026 20:16
+-----------------------------
+Nume: ilie
+Email: iasidasdsad@gma.com
+Restaurant: La Terasă
+Mesaj: vreau rezerva
+Data: 05.05.2026 07:18
+-----------------------------
+Nume: asdasd
+Email: asaf@afsl.casd
+Restaurant: Old City Grill
+Mesaj: vreau rezerva 12:00
+Data: 05.05.2026 07:55
+-----------------------------
+Nume: baba
+Email: jsdfjskd@masdm.casdas
+Restaurant: Moldavian Taste
+Mesaj: vreu rezrva
+Data: 05.05.2026 08:09
+-----------------------------
